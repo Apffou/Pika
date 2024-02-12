@@ -1,0 +1,376 @@
+header {
+  width: 96%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*************** Home content */
+
+.thumbs-content {
+  margin: 40px 0 40px 0;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  gap: 60px;
+
+  @media screen and (min-width:768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (min-width:1024px) and (max-width:1440px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen and (min-width:1441px) and (max-width:2630px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .presentation {
+    box-sizing: border-box;
+
+    @media screen and (min-width:768px) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1440px) {
+      grid-column-end: 4;
+    }
+
+    @media screen and (min-width:1441px) and (max-width:2630px) {
+      grid-column-end: 5;
+    }
+
+    h2 {
+      color: #2DA68E;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      max-width: 70%;
+      margin: auto;
+
+      @media screen and (min-width:768px) {
+        max-width: 100%;
+        margin: 15px 0 25px 0;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      @media screen and (min-width:1024px) {
+        font-size: 30px;
+        max-width: 100%;
+        margin: 0 0 35px 0;
+      }
+    }
+
+
+    .presentation-paragraph {
+      margin-top: 30px;
+
+      p {
+        max-width: 96%;
+        font-size: 18px;
+        font-family: sans-serif;
+        margin: 10px auto;
+        text-align: justify;
+        padding: 0 20px;
+
+        @media screen and (min-width:768px) {
+          padding: 0 25px;
+          font-size: 20px;
+          max-width: 60%;
+        }
+
+      }
+    }
+
+  }
+
+}
+
+
+/*************** About content */
+
+
+.about-content {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 65px 0 10px 0;
+  box-sizing: content-box;
+  grid-row-gap: 35px;
+
+  @media screen and (min-width:768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 80px;
+    padding: 15px;
+  }
+
+  @media screen and (min-width:1440px) {
+    padding: 35px;
+  }
+
+  @media screen and (min-width:1920px) {
+    padding: 39px;
+  }
+
+  img {
+    width: 300px;
+
+    @media screen and (min-width:768px) {
+      width: 350px;
+    }
+
+    @media screen and (min-width:1024px) {
+      width: 400px;
+    }
+
+    @media screen and (min-width:1440px) {
+      width: 545px;
+    }
+  }
+
+  .adopt-img {
+    @media screen and (min-width:768px) {
+      grid-row-start: 2;
+      grid-column-start: 2;
+    }
+
+  }
+
+  .word {
+    width: 96%;
+
+    @media screen and (min-width:1920px) {
+      width: 90%;
+    }
+
+    p {
+      margin: 20px 0 60px 0;
+      text-align: justify;
+      color: #292524;
+      font-size: 19px;
+      padding: 0 15px;
+
+      @media screen and (min-width:1024px) {
+        font-size: 22px;
+      }
+
+      @media screen and (min-width:1440px) {
+        font-size: 24px;
+      }
+
+    }
+
+
+  }
+
+  .links-and-img {
+    color: #292524;
+    font-size: 19px;
+    width: 96%;
+
+    .links-content {
+
+      p {
+        padding: 0 15px;
+        text-align: justify;
+
+        @media screen and (min-width:1024px) {
+          font-size: 22px;
+        }
+
+        @media screen and (min-width:1440px) {
+          font-size: 24px;
+        }
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+
+        @media screen and (min-width:1024px) {
+          font-size: 20px;
+        }
+
+        @media screen and (min-width:1440px) {
+          font-size: 24px;
+        }
+
+
+        li {
+          padding-top: 5px;
+
+          a {
+            color: #2DA68E;
+            text-decoration: underline;
+          }
+
+        }
+
+      }
+    }
+
+
+
+  }
+
+}
+
+
+/************* PageArticle content */
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+  @media screen and (min-width:768px) {
+    padding: 15px;
+  }
+
+  @media screen and (min-width:1024px) {
+    padding: 35px 20px 20px 20px;
+  }
+
+  @media screen and (min-width:1440px) {
+    padding: 50px 35px 35px 35px;
+  }
+
+  @media screen and (min-width:1920px) {
+    padding: 60px 35px 35px 35px;
+  }
+
+
+  h2 {
+    color: #2DA68E;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 70%;
+    margin: 10px 0 20px 0;
+
+    @media screen and (min-width:768px) {
+      margin: 15px 0 25px 0;
+    }
+
+    @media screen and (min-width:1024px) {
+      font-size: 30px;
+      max-width: 100%;
+      margin: 0 0 35px 0;
+    }
+
+    @media screen and (min-width:1440px) {
+      margin-bottom: 50px;
+    }
+
+    @media screen and (min-width:1920px) {
+      margin-bottom: 60px;
+    }
+  }
+
+  .carouselAndparag {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    @media screen and (min-width:1440px) {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      align-items: center;
+      justify-items: center;
+    }
+
+
+    blockquote {
+      box-sizing: border-box;
+      display: inline-block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-left: 7px solid #2DA68E;
+      margin: 35px auto;
+
+      @media screen and (min-width:768px) {
+        max-width: 80%;
+      }
+
+
+      p {
+        font-size: 18px;
+        font-family: math;
+        padding: 10px 0 10px 15px;
+        text-align: justify;
+
+        @media screen and (min-width:768px) {
+          font-size: 20px;
+        }
+
+        @media screen and (min-width:1024px) {
+          font-size: 24px;
+        }
+
+      }
+
+      span {
+        width: 100%;
+        display: inline-block;
+        font-weight: bold;
+        text-align: end;
+
+        @media screen and (min-width:1024px) {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .bloc {
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    margin: 20px 0 40px;
+
+    @media screen and (min-width:1024px) {
+      grid-template-columns: 1fr 1fr;
+      margin: 40px 0 40px;
+    }
+
+    @media screen and (min-width:1920px) {
+      grid-template-columns: 1fr 1fr;
+      margin: 40px 0 40px;
+      gap: 70px;
+    }
+  }
+}
+
+
+/************* */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

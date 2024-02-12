@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30px;
+
+    a {
+        color: #A64D2D;
+        text-decoration: none;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 500;
+
+        @media screen and (min-width:1024px) and (max-width:1920px) {
+            font-size: 25px;
+        }
+    }
+}
