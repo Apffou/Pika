@@ -1,3 +1,8 @@
+# Projet Personnel 
+
+Ce projet est un exercice pour remplir mon portofolio et pour mettre en avant la cause animal
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
