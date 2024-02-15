@@ -2,7 +2,7 @@
 function About() {
     return (
         <section className="about-content">
-            <img src="../../../about.png" alt="Pika tournée vers sa propiètaire Anaïs" />
+            <img src="/Pika/about.png" alt="Pika tournée vers sa propiètaire Anaïs" />
             <div className="word">
                 <p>Cette petite chienne rythme ma vie d'une belle musique : ses grognements joueurs quand on fait semblant de se battre,
                     le bruit de ses griffes sur le parquet qui me suivent ou que j'aille, ce frétillement de queue quand je rentre à la maison même après une demi heure d'absence.
@@ -10,7 +10,7 @@ function About() {
 
                 </p>
             </div>
-            <img className="adopt-img" src="../../../adoptez.png" alt="Dessin d'un garçon portant un carlin dans ses bras avec au dessus de sa tête écrit adopt don't shop" />
+            <img className="adopt-img" src="/Pika/adoptez.png" alt="Dessin d'un garçon portant un carlin dans ses bras avec au dessus de sa tête écrit adopt don't shop" />
             <section className="links-and-img">
                 <div className="links-content">
                     <p>

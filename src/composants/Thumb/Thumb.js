@@ -3,7 +3,7 @@ import './Thumb.scss';
 function Thumb(params) {
 
 
-    const file_url = "/assets/" + params.years.thumb.picture;
+    const file_url = "/Pika/assets/" + params.years.thumb.picture;
     return (
         <>
             <Link to={'/years/' + params.years.id} >
