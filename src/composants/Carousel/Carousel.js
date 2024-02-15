@@ -7,7 +7,7 @@ import './Carousel.scss';
 
 function Carousel({ images }) {
 
-    const filePath = "/assets/";
+    const filePath = "/Pika/assets/";
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const totalImages = images.length;
