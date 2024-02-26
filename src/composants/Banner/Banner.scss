@@ -1,10 +1,12 @@
 .background {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    background-image: url(../../../public/assets/bandeau.png);
+    object-fit: cover;
 
-    background-color: #A64D2D;
+
     width: 96%;
     height: 130px;
     color: #FFF;
@@ -15,10 +17,12 @@
     h1,
     h2 {
         margin: 0;
+        color: #A64D2D;
     }
 
     h1 {
         font-size: 35px;
+
     }
 
     h2 {
