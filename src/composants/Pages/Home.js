@@ -16,7 +16,7 @@ function Home() {
                         <p></p>
                     </div>
                 </div>
-                {years.map((information) => <Thumb years={information} />)}
+                {years.map((information) => <Thumb key={information.id} years={information} />)}
             </section>
         </>
     )
